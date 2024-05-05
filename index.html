@@ -1,0 +1,288 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <!-- Google analytics tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-STGLQW4BJX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-STGLQW4BJX');
+    </script>
+
+    <!-- Title -->
+    <title>Imanol G. Estepa - Universitat de Barcelona</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1000">
+
+    <!-- Isotope JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+    </style>
+  </head>
+
+  <body id="body">
+
+    <div id="main">
+      <div id="intro">
+        <div id="intro-text">
+          <h1>Imanol G. Estepa</h1>
+          <p>
+            Hi! I'm a PhD student at the University of Barcelona supervised by Prof. Petia Radeva. My research focuses on the unification of successful representation learning approaches and generative modelling algorithms, so as to form rich latent spaces useful for both generative and discriminative tasks. Lately, I've been interested in generative Latent modification and interpretability.  
+            <div id="more-bio" style="display: None">
+              <br>
+              <p>Imanol G. Estepa is a PhD student under the supervision of Prof. Petia Radeva at the University of Barcelona. Throughout his studies, he has shown expertise in Self-supervised representation learning, collaborating on international projects and publishing his research at major computer vision and machine learning conferences. He completed a Computer Science bachelor's degree at the University of Deusto and moved to Barcelona to continue his studies with a master's degree in Artificial Intelligence from the Universitat Politècnica de Catalunya. His current research focuses on Unified Self-supervised deep learning, bringing together Image Generation algorithms and modern Self-supervised approaches.</p>
+            </div>
+            <br>
+            <a href="javascript:toggle_bio()">Formal Bio</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://github.com/ImaGonEs">Github</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&authuser=4&hl=en&user=jWyf3nwAAAAJ&authuser=4">G. Scholar</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://www.linkedin.com/in/imanol-g-estepa">LinkedIn</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://twitter.com/andyzeng_">CV</a>
+            <br><br>
+            imagonzpa at gmail dot com
+            <br><br>
+          </p>
+        </div>
+        <div id="intro-image">
+          <img src="images/im_profile.jpeg">
+        </div>
+      </div>
+
+      <div id="filters" class="button-group">
+        <!-- <button class="button" data-filter="*">Show All</button> -->
+        <button class="button is-checked" data-filter=".highlight">News</button>
+        <button class="button" data-filter=".publication">Research</button>
+        <button class="button" data-filter=".misc">Misc</button>
+      </div>
+
+      <div class="grid">
+
+        <!-- Highlights -->
+        <div class="list-item highlight description" data-category="highlight">
+          Latests news from our research:
+        </div>
+
+        <!-- Preview Videos -->
+        <!--<div class="list-item highlight previews" data-category="highlight">
+
+          <a href="https://palm-e.github.io/"><video class="preview1" playsinline="" muted="" autoplay="" loop=""><source src="images/video-palm-e.mp4" type="video/mp4"></video></a>
+
+          <a href="https://say-can.github.io/"><video class="preview2" playsinline="" muted="" autoplay="" loop=""><source src="images/video-saycan.mp4" type="video/mp4"></video></a>
+
+          <a href="https://tossingbot.cs.princeton.edu/"><video class="preview3" playsinline="" muted="" autoplay="" loop=""><source src="images/video-tossingbot-crop.mp4" type="video/mp4"></video></a>
+
+        </div> -->
+
+        <!-- Truncated Set of Highlights (Shown by Default) -->
+        <div id="main-highlights">
+
+          <div class="list-item highlight" data-category="highlight">
+            <b>[Paper]</b> Our paper "LOFI: LOng-tailed FIne-Grained Network for Food Recognition" has been accepted as an <b>Oral</b> on MetaFood CVPR'24 workshop!
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <b>[Code]</b> All4One code has been officially added to solo-learn SSL library!
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <b>[Divulg.]</b> We've been selected as one of the few oral sessions of the <a href="https://sites.google.com/view/dlbcn2023/">Barcelona Deep Learning Symposium 2023.</a>
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <b>[Divulg.]</b> We'll be showing our work at the <a href="http://acmcv.cat/">Annual Catalan Meeting on Computer Vision 2023</a>. 
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <b>[Paper]</b> Our paper "Dining on Details: LLM-Guided Expert Networks for Fine-Grained Food Recognition" has been accepted as an <b>Oral</b> on MADiMa ACMM'23 workshop!
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <b>[Divulg.]</b> Two extended abstracts accepted on the LatinX in Computer Vision ICCV'23 Workshop.
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+             <b>[Paper]</b> Our paper "Good Fences Make Good Neighbours" has been accepted on VIPriors ICCV'23 workshop.
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <b>[Paper]</b> Our paper "All4One: Symbiotic Neighbour Contrastive Learning via Self-Attention and Redundancy Reduction" has been accepted at the ICCV'23!!
+          </div>
+
+        </div>
+
+
+
+        <!-- Publications -->
+        <div class="list-item publication" data-category="publication">
+          <a href="https://dl.acm.org/doi/10.1145/3607828.3617797" class="thumbnail">
+            <video playsinline="" muted="" autoplay="" loop="" width="180px">
+              <source src="images/daynight.mp4" type="video/mp4">
+            </video>
+          </a>
+          <div class="project-description">
+            <h3><a href="https://dl.acm.org/doi/10.1145/3607828.3617797">Dining on Details: LLM-Guided Expert Networks for Fine-Grained Food Recognition</a></h3>
+            <p>
+              Jesus M. Rodriguez de Vera, Pablo Villacorta Benito, <b>Imanol G. Estepa</b>, Marc Bolaños, Ignacio Sarasua, Bhalaji Nagarajan, Petia Radeva<br>
+                <i>MADiMa Workshop @ ACMM 2023</i><br>
+                <a href="https://dl.acm.org/doi/10.1145/3607828.3617797">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <br> <!-- TODO: extra spaces until I figure out the margin bug. -->
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="https://openaccess.thecvf.com/content/ICCV2023W/VIPriors/html/Estepa_Good_Fences_Make_Good_Neighbours_ICCVW_2023_paper.html" class="thumbnail">
+            <img src="images/fm-review.jpeg" alt="" />
+          </a>
+          <div class="project-description">
+            <h3><a href="https://openaccess.thecvf.com/content/ICCV2023W/VIPriors/html/Estepa_Good_Fences_Make_Good_Neighbours_ICCVW_2023_paper.html">Good Fences Make Good Neighbours</a></h3>
+            <p>
+              <b>Imanol G. Estepa</b>, Jesus M. Rodriguez de Vera, Bhalaji Nagarajan, Petia Radeva<br>
+                <i>Visual Inductive Priors Workshop at ICCV'23</i><br>
+                <!-- <a href="https://video-language-planning.github.io/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp; -->
+                <a href="https://openaccess.thecvf.com/content/ICCV2023W/VIPriors/html/Estepa_Good_Fences_Make_Good_Neighbours_ICCVW_2023_paper.html">PDF</a>
+                <br> <!-- TODO: extra spaces until I figure out the margin bug. -->
+            </p>
+          </div>
+        </div>
+
+
+        <div class="list-item publication" data-category="publication">
+          <a href="https://openaccess.thecvf.com/content/ICCV2023/html/Estepa_All4One_Symbiotic_Neighbour_Contrastive_Learning_via_Self-Attention_and_Redundancy_Reduction_ICCV_2023_paper.html" class="thumbnail">
+            <img src="images/fm-review.jpeg" alt="" />
+          </a>
+          <div class="project-description">
+            <h3><a href="https://openaccess.thecvf.com/content/ICCV2023/html/Estepa_All4One_Symbiotic_Neighbour_Contrastive_Learning_via_Self-Attention_and_Redundancy_Reduction_ICCV_2023_paper.html">All4One: Symbiotic Neighbour Contrastive Learning via Self-Attention and Redundancy Reduction </a></h3>
+            <p>
+              <b>Imanol G. Estepa</b>, Ignacio Sarasua, Bhalaji Nagarajan, Petia Radeva<br>
+                <i>International Conference on Computer Vision (ICCV) 2023</i><br> 
+                <!-- <a href="https://video-language-planning.github.io/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp; -->
+                <a href="https://openaccess.thecvf.com/content/ICCV2023/html/Estepa_All4One_Symbiotic_Neighbour_Contrastive_Learning_via_Self-Attention_and_Redundancy_Reduction_ICCV_2023_paper.html">PDF</a>
+                <a href="https://github.com/ImaGonEs/all4one">Code</a>
+                <a href="https://github.com/vturrisi/solo-learn">Library</a>
+
+                <br> <!-- TODO: extra spaces until I figure out the margin bug. -->
+            </p>
+          </div>
+        </div>
+
+
+      
+        <!-- Services -->
+        <div class="list-item misc" data-category="misc">
+          <p class="date">2023</p> <a href="https://www.youtube.com/watch?v=mWY45fPRUK4&t=33981s">Presentation</a> and <a href="https://drive.google.com/file/d/12Pxk9XjzTxKtxceDlr3Htpr4fBQ7BYbv/view">slides</a> of my talk at DLBCN are publicly available.
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date">2023+</p>IEEE Transactions on Multimedia Reviewer.
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date">2023</p>Max grade with honours on my Master's thesis "<a href="https://upcommons.upc.edu/handle/2117/385032">Analysis and improvement proposal on self-supervised deep learning</a>"
+        </div>
+
+
+
+      </div>
+
+      <div id="footer">Website template by <a href="https://andyzeng.github.io/">Andy Zeng</a></div>
+
+    </div>
+
+    <script>
+
+      // Isotope grid.
+      var $grid = $('.grid').isotope({
+        itemSelector: '.list-item',
+        layoutMode: 'fitRows',
+        transitionDuration: 0,
+        stagger: 10,
+        initLayout: false,
+        getSortData: {
+          name: '.name',
+          symbol: '.symbol',
+          number: '.number parseInt',
+          category: '[data-category]',
+          weight: function( itemElem ) {
+            var weight = $( itemElem ).find('.weight').text();
+            return parseFloat( weight.replace( /[\(\)]/g, '') );
+          }
+        }
+      });
+
+      // Bind filter button click.
+      $('#filters').on( 'click', 'button', function() {
+        var filterValue = $( this ).attr('data-filter');
+        localStorage.setItem('filterValue', filterValue);
+        $grid.isotope({ filter: filterValue });
+      });
+
+      // Change is-checked class on buttons.
+      $('.button-group').each( function( i, buttonGroup ) {
+        var $buttonGroup = $( buttonGroup );
+        $buttonGroup.on( 'click', 'button', function() {
+          $buttonGroup.find('.is-checked').removeClass('is-checked');
+          $( this ).addClass('is-checked');
+        });
+      });
+
+      function update_isotope() {
+        // Retrieve cached button click.
+        var defaultFilterValue = localStorage.getItem('filterValue');
+        if (defaultFilterValue == null) {
+          defaultFilterValue = ".highlight"
+        }
+        $grid.isotope({ filter: defaultFilterValue });
+        var buttons = document.getElementsByClassName("button");
+        for (var currButton of buttons) {
+          if (currButton.getAttribute('data-filter') == defaultFilterValue) {
+            currButton.classList.add('is-checked');
+          } else {
+            currButton.classList.remove('is-checked');
+          }
+        }
+      }
+
+      function toggle_bio() {
+        var x = document.getElementById("more-bio");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+
+      function toggle_highlights() {
+        var x = document.getElementById("main-highlights");
+        var y = document.getElementById("more-highlights");
+        var b = document.getElementById("toggle_highlights_button")
+        if (y.style.display === "none") {
+          x.style.display = "none";
+          y.style.display = "block";
+          b.innerHTML = "Show less"
+          update_isotope();
+        } else {
+          x.style.display = "block";
+          y.style.display = "none";
+          b.innerHTML = "Show more"
+          update_isotope();
+        }
+      }
+
+      update_isotope();
+
+    </script>
+  </body>
+</html>
